@@ -1,0 +1,93 @@
+*{ 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    font-family:  sans-serif; 
+} 
+
+  
+/* navbar */
+
+  
+.navbar-nav{ 
+
+    margin-right: 0 !important; 
+
+    padding-right: 100px; 
+} 
+
+  
+.navbar{ 
+
+    background-color: #0a193d; 
+
+    color: white !important; 
+} 
+
+  
+.nav-item a{ 
+
+    color: white !important; 
+} 
+
+  
+.nav-item{ 
+
+    padding-left: 2px; 
+} 
+
+  
+.navbar-brand{ 
+
+    color: white !important; 
+
+    padding-left: 100px; 
+} 
+
+  
+#navbar button{ 
+
+    color: white !important; 
+} 
+
+
+  
+#banner-col{ 
+
+    padding-left: 20px; 
+} 
+#banner-container{ 
+
+    background-color:#0a193d; 
+
+    color: white ; 
+
+    padding-top: 80px; 
+
+    padding-bottom: 80px; 
+
+      
+} 
+#service{ 
+
+    padding-top: 80px; 
+
+    padding-bottom: 80px; 
+} 
+
+  
+
+#service h1{ 
+
+    padding-bottom: 70px; 
+} 
+#banner-row h3, p{ 
+
+    padding-left: 20px; 
+
+    padding-top: 20px; 
+
+    text-align: center; 
+} 

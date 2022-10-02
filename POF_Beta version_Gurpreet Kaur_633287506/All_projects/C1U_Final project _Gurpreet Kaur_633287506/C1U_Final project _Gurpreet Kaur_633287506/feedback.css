@@ -1,0 +1,151 @@
+
+    *
+    {box-sizing: border-box;}
+
+
+
+
+.container{
+	margin-left: 300px;
+}
+header{
+    background-color: orangered;
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+h1{
+    float: left;
+        color: white;
+    font-size: 23px;
+    }
+
+
+     nav{
+    display: flex;
+    justify-content: space-around;
+    max-width: 960px;
+    margin: auto;
+    float: right;
+}
+nav li{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+nav li a{
+    color: white;
+
+    font-size: 23px;
+    text-decoration: none;
+    margin: 10px 10px;
+    transition: .5s;
+}
+nav a:hover{
+    color: blue;
+}
+
+.active{
+	color: green;
+}
+
+
+
+.foot2{
+  
+    height: 50px;
+    width: 100%;
+    background-color: orangered;
+    position:fixed;
+    bottom:0;
+}
+body{
+	background-color: skyblue;
+	font-family: sans-serif;
+	/*background-image: url(img/1.jpg);
+*/	margin:0;
+	padding: 0;
+/*	width: 50px;
+	height: 50px;
+*/}
+
+.radio-inline{
+	margin: 0px 40px 20px 0px;
+/*	cursor: pointer;*/
+}
+label{
+	color: black;
+}
+
+
+h1{
+	color: black;
+	font-family: cursive;
+	font-size: 40px;
+	text-align: center;
+}
+h2{
+	color: black;
+	font-family: cursive;
+	font-size: 27px;
+	text-align: center;
+}
+h3{
+	color: black;
+	font-family: cursive;
+	font-size: 20px;
+	text-align: left;
+}
+.main{
+	color: black;
+	font-family: cursive;
+	font-size: 20px;
+	text-align: center;
+}
+.row .radio-inline{
+	color: black;
+	font-family: cursive;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: gray;
+  }
+  .active{
+    color: black;
+  }
+  header{
+    background-color: red;
+}
+
+
+     nav{
+    display: flex;
+    justify-content: space-around;
+    max-width: 960px;
+    margin: auto;
+    float: right;
+}
+nav li{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+nav li a{
+    color: white;
+background-color: red;
+    font-size: 23px;
+    text-decoration: none;
+   background-color: orangered;
+    height: 50px;
+    position: relative;
+    width: 100%;
+
+}
+nav a:hover{
+    color: black;
+}
+}

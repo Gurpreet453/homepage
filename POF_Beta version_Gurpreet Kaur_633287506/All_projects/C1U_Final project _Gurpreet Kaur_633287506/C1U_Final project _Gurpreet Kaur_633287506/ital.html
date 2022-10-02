@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+<style type="text/css">
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  sans-serif;
+  background-color: green;
+}
+
+header{
+    background-color: orangered;
+    height: 60px;
+    position: relative;
+    width: 100%;
+}
+h1{
+    float: left;
+        color: white;
+    font-size: 25px;
+    background-color: orangered;
+    }
+
+
+     nav{
+    display: flex;
+    justify-content: space-around;
+    max-width: 960px;
+    margin: auto;
+    float: right;
+}
+nav li{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+nav li a{
+    color: white;
+
+    font-size: 23px;
+    text-decoration: none;
+    margin: 10px 10px;
+    transition: .5s;
+}
+nav a:hover{
+    color: blue;
+}
+
+main section{
+  /*position: relative;*/
+  display: grid;
+  grid-template-columns:repeat(5,1fr);
+  grid-gap: 10px;
+  max-width: 960px;
+  margin: auto;
+ /* margin-top: 10px;*/
+  margin-bottom: 45px;
+
+}
+main section h1{
+  position: absolute;
+/*  top: 10px;*/
+  left: 10px;
+
+}
+main section div img{
+  display: block;
+  max-width: 100%;
+  height: 300px;
+  width:700px ;
+  /*padding-top: 80px;*/
+}
+h3{
+  background-color: white;
+  text-align: center;
+}
+/*h1{
+  padding-top: 30px;
+  text-align: center;
+}*/
+h5{
+height: 50px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  margin-top: 60px;
+
+}
+
+#box{
+  display: flex;
+  column-count: 4;
+  column-gap: 40px;
+
+
+}
+.foot2{
+  
+    height: 50px;
+  width: 100%;
+  background-color: white ;
+  position:fixed;
+  bottom:0;
+}
+.active{
+  color: green;
+}
+
+  .one{
+    padding-left: 30px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: gray;
+  }
+  .active{
+    color: black;
+  }
+  .active{
+    background-color: pink;
+    font-family: cursive;
+}
+}
+</style>
+</head>
+<body>
+
+         <header>
+<h1 style="font-family: sans-serif;">Gurpreet kaur</h1>
+    <nav>
+            <li><a class="active" href="gurk.html">Home</a></li>
+            
+            <li><a href="team.html">Team</a></li>
+            <li><a href="dishes.html">Dishes</a></li>
+            <li><a href="feedback.html">feedback</a></li>
+        
+    
+    </nav>
+</header>
+ <h2 style="color: black; font-size: 35px; font-family: sans-serif; text-align: center;"> Italian Dishes</h2>
+  <main>
+  <section>
+      <div><img src="img/62.jpg"><h3>Penne with vegetables sauce</h3></div>
+    <div><img src="img/51.jpg"><h3>Pizza</h3></div>
+    <div><img src="img/52.jpg"><h3>Insalata caprese</h3></div>
+    <div><img src="img/53.jpg"><h3>Minestrone</h3></div>
+    <div><img src="img/54.jpg"><h3>Spaghetti</h3></div>
+    <div><img src="img/55.jpg"><h3>Ravioli</h3></div>
+    
+    <div><img src="img/56.jpg"><h3>Lasagna</h3></div>
+    <div><img src="img/57.jpg"><h3>Panna cotta</h3></div>
+    <div><img src="img/58.jpg"><h3>Risotto</h3></div>
+    <div><img src="img/59.jpg"><h3>Gelato</h3></div>
+    <div><img src="img/60.jpg"><h3>Cacciucco</h3></div>
+    <div><img src="img/61.jpg"><h3>Tiramisu</h3></div>
+  
+    <div><img src="img/63.jpg"><h3>Ravioli</h3></div>
+    <div><img src="img/64.jpg"><h3>Ciabatta</h3></div>
+    <div><img src="img/65.jpg"><h3>Carpaccio</h3></div>
+
+</section>
+</main>
+<footer class="foot">
+  <h5 style="text-align: center; style="color: black; font-size: 35px; font-family: sans-serif;>Menu card</h5>
+  <div id="box">
+<div class="one" style="font-family: sans-serif; margin-right: 10px; padding-right: 80px; padding-left: 90px; font-size: 20px;"><ul><li>Bruschetta</li>
+<li>Bresaola</li>
+<li>Risotto</li>
+<li>Lasagne</li>
+<li>Minestrone</li>
+<li>Polenta</li>
+<li>Gnocchi</li>
+<li>Ravioli</li>
+<li>Sun dried tomato</li>
+<li>Chicken florentine pasta</li>
+<li>Pasta fagioli al forno</li>
+<li>Karma Prashad</li>
+<li>Gobhi-Gajjar Achaar</li>
+<li>Pinni</li></ul></div>
+<div class="two" style="font-size: 20px; font-family: sans-serif; margin-right: 10px; padding-right: 80px; padding-left: 90px;"><ul><li>Bread Pakora</li>
+<li>Aloo paratha</li>
+<li>baingan bharta</li>
+<li>Curd Shorba</li>
+<li>Tandoori Aloo</li>
+<li>Aloo chat</li>
+<li>Dal taadka</li>
+<li>Shahi Paneer</li>
+<li>Karahi Paneer</li>
+<li>Adraki Paneer</li>
+<li>Paneer kali mirch</li>
+<li>Pudina Paneer</li>
+<li>Navraton korma</li>
+<li>Paneer butter Masala</li></ul></div>
+<div class="three" style="font-size: 22px; font-family: sans-serif; margin-right: 10px; padding-right: 80px; padding-left: 90px;"><ul><li>Palak mashroom</li>
+<li>Zeera Aloo</li>
+<li>Mix vegetables</li>
+<li>Matar Mashroom</li>
+<li>Malai Kofta</li>
+<li>Karahi Mashroom</li>
+<li>Dal fry</li>
+<li>Dum aloo</li>
+<li>Butter roti</li>
+<li>Egg curry</li>
+<li>Plain rice</li>
+</ul></div></div>
+</footer>
+<footer class="foot2">
+   <h5 style="text-align: center;">@moga restaurant</h5>
+</footer>
+</body>
+</html>
